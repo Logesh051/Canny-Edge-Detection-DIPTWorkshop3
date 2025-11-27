@@ -1,5 +1,6 @@
 ## Title: Canny Edge Detection – OpenCV Implementation
-
+### NAME : LOGESH.N.A
+### REG NO : 212223240078
 ### Description:
 This project demonstrates the implementation of the Canny Edge Detection algorithm using Python and OpenCV. The Canny technique is widely used to extract edges and boundaries of objects in an image.
 
@@ -29,13 +30,13 @@ Canny-Edge-Detection
 
 ### How to Run:
 
-Install dependencies
+1.Install dependencies
 pip install opencv-python matplotlib
 
-Place an image in the project folder and rename it as:
+2.Place an image in the project folder and rename it as:
 sample.jpg
 
-Open and run the Jupyter notebook:
+3.Open and run the Jupyter notebook:
 canny_edge_detection.ipynb
 
 Python Code:
@@ -69,12 +70,7 @@ plt.show()
 • Original Image – the grayscale version of your input image
 • Canny Output – thin white lines showing object boundaries, with noise removed
 
-Canny detects strong intensity changes and displays only the essential outlines.
-
-How Parameter Settings Affect Results:
-
-The function uses two thresholds:
-Canny(image, lower_threshold, upper_threshold)
+<img width="869" height="455" alt="image" src="https://github.com/user-attachments/assets/c78f2c72-5ee7-4009-a0a3-fd9939805b2b" />
 
 Lower threshold:
 • Lower value → more edges, more noise
